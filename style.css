@@ -46,7 +46,7 @@ body{
 .navbar a:hover{
     color: #0ef;
 }
-.home{
+#home{
     position: relative;
     width: 100%;
     justify-content: space-between;
@@ -73,7 +73,7 @@ h1{
     animation: slideBottom 1s ease forwards;
 
 }
-.about{
+#about{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -196,13 +196,13 @@ p {
     position: relative;
 }
 .square[data-percent="1"]{
-    background-image: url(../images/TIC.png);
+    background-image: url('../images/TIC.png');
     background-size: cover;
     background-repeat: no-repeat;
     animation: slideRight 1s ease forwards;
 }
 .square[data-percent="2"]{
-    background-image: url(../images/poke.png);
+    background-image: url('../images/poke.png');
     background-size: cover;
     background-repeat: no-repeat;
     animation: slideLeft 2s ease forwards;
