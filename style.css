@@ -13,7 +13,7 @@ body{
     background-size: cover;
 }
 .box{
-    margin-left: 5%;
+    margin-left: 15%;
     position: relative;
     width: 400px;
     height: 400px;
@@ -307,11 +307,12 @@ p {
     font-size: large;
     background-color: #2478c1;
     color: #f4f0f5;
+    align-items: center;
 }
 button{
     margin-top: 2%;
     margin-bottom: 10%;
-    width: 10%;
+    width: 20%;
     height: 40px;
     background-color: #ab4583;
     color: #0ef;
@@ -405,6 +406,9 @@ button{
     }
 }
 @media (max-width: 768px) {
+    body{
+        margin-left: 2%;
+    }
     .container {
         grid-template-columns: 1fr 1fr;
         gap: 20px;
@@ -435,30 +439,19 @@ button{
         font-size: 16px;
         border-spacing: 5px 5px ;
     }
-    label.logo{
-        font-size: 30px;
-        padding-left: 50px;
-    }
     nav a{
-        font-size: 16px;
+        font-size: 6px;
         
+    }
+    .form input{
+        width: 200px;
+    }
+    #about{
+        grid-template-columns:1fr;
+    }
+    .box{
+        width: 300px;
+        height: 300px;
     }
 }
 
-@media (max-width: 480px) {
-    .container {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    .projects{
-        display: grid;
-        grid-template-columns:  1fr;
-        margin: 5% 2% 2% 5%;
-        gap: 20px;
-    }
-    .details table{
-        margin-top: 10%;
-        font-size: 16px;
-        border-spacing: 5px 5px ;
-    }
-}
