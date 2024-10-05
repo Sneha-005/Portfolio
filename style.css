@@ -13,6 +13,7 @@ body{
     background-size: cover;
 }
 .box{
+    margin-left: 5%;
     position: relative;
     width: 400px;
     height: 400px;
