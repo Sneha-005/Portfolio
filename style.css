@@ -196,13 +196,13 @@ p {
     position: relative;
 }
 .square[data-percent="1"]{
-    background-image: url(TIC.png);
+    background-image: url(/images/TIC.png);
     background-size: cover;
     background-repeat: no-repeat;
     animation: slideRight 1s ease forwards;
 }
 .square[data-percent="2"]{
-    background-image: url(poke.png);
+    background-image: url(/images/poke.png);
     background-size: cover;
     background-repeat: no-repeat;
     animation: slideLeft 2s ease forwards;
