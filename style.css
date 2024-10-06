@@ -456,12 +456,11 @@ button{
 
     }
     .logo{
-        position: fixed;
+        position: absolute;
     font-size: 15px;
     font-weight: 100;
     margin-left: 1%;
-    padding: 0;
-    margin: 0;
+    margin-right: 2%;
     animation: none;
 
 
