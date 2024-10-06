@@ -447,6 +447,7 @@ button{
         font-size: 15px;
         font-weight: 150;
         margin-left: 2px;
+        animation: none;
         
     }
     .header{
@@ -459,6 +460,7 @@ button{
     margin-left: 1%;
     padding: 0;
     margin: 0;
+
 
     }
     .form input{
