@@ -449,12 +449,14 @@ button{
         margin-left: 2px;
         animation: none;
         
+        
     }
     .header{
     padding: 10px 5%;
 
     }
     .logo{
+        position: fixed;
     font-size: 15px;
     font-weight: 100;
     margin-left: 1%;
